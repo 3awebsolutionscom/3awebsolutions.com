@@ -1,7 +1,9 @@
+import Hero from "@/components/local/home/hero/Hero";
+
 export default function Home() {
   return (
     <main>
-      <h1>3a Web Solutions</h1>
+      <Hero />
     </main>
   );
 }
