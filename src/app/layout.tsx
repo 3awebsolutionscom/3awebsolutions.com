@@ -1,10 +1,22 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/global/navbar/Navbar";
 import Footer from "@/components/global/footer/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const myFontRegular = localFont({
+  src: [
+    // {
+    //   path: "../fonts/Comfortaa-Bold.ttf",
+    // },
+    // {
+    //   path: "../fonts/Comfortaa-Light.ttf",
+    // },
+    {
+      path: "../fonts/silka-regular-webfont.woff2",
+    },
+  ],
+});
 
 export const metadata: Metadata = {
   title: "3a Web Solutions",
@@ -18,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={myFontRegular.className}>
         <Navbar />
         {children}
         <Footer />
