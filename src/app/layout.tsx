@@ -6,12 +6,6 @@ import Footer from "@/components/global/footer/Footer";
 
 const myFontRegular = localFont({
   src: [
-    // {
-    //   path: "../fonts/Comfortaa-Bold.ttf",
-    // },
-    // {
-    //   path: "../fonts/Comfortaa-Light.ttf",
-    // },
     {
       path: "../fonts/silka-regular-webfont.woff2",
     },

@@ -1,0 +1,65 @@
+.servicesSection > .servicesSContainer {
+  background-color: var(--lightBg3);
+  padding: 2rem 2rem;
+}
+
+.servicesSection > .servicesSContainer > h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0 0 6rem 0;
+  text-align: center;
+}
+
+.servicesSection > .servicesSContainer > h2 > span {
+  position: relative;
+  /* margin-right: 1rem; */
+}
+
+.servicesSection > .servicesSContainer > h2 > span:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 7px;
+  width: 100%;
+  border: solid 2px var(--mainColor);
+  border-color: var(--mainColor) transparent transparent transparent;
+  border-radius: 90%;
+}
+
+.servicesSection > .servicesSContainer > .sTabs > .sTabLeft > h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 0 2rem 0;
+}
+
+.servicesSection > .servicesSContainer > .sTabs > .sTabLeft > p {
+  margin: 0 0 2rem 0;
+  line-height: 1.5rem;
+}
+
+.servicesSection > .servicesSContainer > .sTabs > .sTabRight > img {
+  width: 100%;
+  height: auto;
+}
+
+.servicesSection > .servicesSContainer > .sTabsSwitch > .sTabSLeft > img {
+  width: 100%;
+  height: auto;
+}
+
+.servicesSection > .servicesSContainer > .sTabsSwitch > .sTabSRight > h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 0 2rem 0;
+}
+
+.servicesSection > .servicesSContainer > .sTabsSwitch > .sTabSRight > p {
+  margin: 0 0 2rem 0;
+  line-height: 1.5rem;
+}
+
+.serviceSecIcon {
+  font-size: 3rem;
+  padding: 0.5rem;
+}

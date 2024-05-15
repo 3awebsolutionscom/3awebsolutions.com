@@ -1,0 +1,21 @@
+nav {
+  height: 6rem;
+}
+
+nav > .navContainer > .logo > a > h1 {
+  color: var(--mainColor);
+  /* font-family: "Caveat", cursive; */
+  color: var(--bgGrey);
+  /* font-size: 2rem; */
+}
+
+nav > .navContainer > .menu > ul > li > a {
+  text-transform: uppercase;
+  color: var(--mainBg2);
+  font-weight: 600;
+}
+
+nav > .navContainer > .menu > ul > li > a:hover {
+  color: var(--mainBg);
+  transition: 0.2s all ease-in-out;
+}

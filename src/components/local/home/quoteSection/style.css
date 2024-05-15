@@ -1,0 +1,13 @@
+.quoteSection {
+  padding: 5rem 0;
+}
+
+.quoteSection > blockquote {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.quoteSection > p {
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+}

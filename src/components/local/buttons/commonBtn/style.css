@@ -1,0 +1,18 @@
+.commonBtn {
+  border: 2px solid var(--mainColor);
+  color: var(--mainBg);
+  display: inline-block;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.commonBtn:hover {
+  background-color: var(--mainBg);
+  border: 2px solid var(--mainBg);
+  color: white;
+  transition: 0.2s all ease-in-out;
+}
+
+.commonBtn > .commonBtnIcon {
+  margin-bottom: -0.18rem;
+}

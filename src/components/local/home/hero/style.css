@@ -1,3 +1,50 @@
-/* .hero {
-  font-weight: 800;
-} */
+.hero {
+  height: 80vh;
+}
+
+.hero > .heroContainer > .heroLeft > h1 {
+  color: var(--mainBg);
+  font-size: 2.5rem;
+  position: relative;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.hero > .heroContainer > .heroLeft > span {
+  font-family: "Caveat", cursive;
+  position: relative;
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.hero > .heroContainer > .heroLeft > span:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 7px;
+  width: 100%;
+  border: solid 2px var(--mainColor);
+  border-color: var(--mainColor) transparent transparent transparent;
+  border-radius: 90%;
+}
+
+.hero > .heroContainer > .heroLeft > h2 {
+  color: var(--mainBg);
+  line-height: 2rem;
+  margin: 4rem 0 1rem 0;
+  font-weight: 500;
+}
+
+.hero > .heroContainer > .heroLeft > p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin: 0 0 4rem 0;
+}
+
+.hero > .heroContainer > .heroRight {
+  background-image: url(../../../../assets/images/heroBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}

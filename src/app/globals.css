@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +44,7 @@ ul {
   --mainBg3: #a6a6a6;
   --mainBg4: #d0d0d0;
   --mainBg5: #f1efef;
+  --mainBg6: #fafafc;
 }
 
 /* background classes */
@@ -117,7 +120,7 @@ ul {
 /* -------widths------------------ */
 
 .maxWidth {
-  max-width: 1500px;
+  max-width: 1600px;
 }
 
 .width5 {
@@ -542,6 +545,12 @@ ul {
 }
 .marginBottom3 {
   margin-bottom: 3rem !important;
+}
+.marginBottom4 {
+  margin-bottom: 4rem !important;
+}
+.marginBottom5 {
+  margin-bottom: 5rem !important;
 }
 .marginTop1 {
   margin-top: 1rem;

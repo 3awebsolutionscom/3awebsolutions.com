@@ -1,0 +1,28 @@
+.projectDelivery {
+  background-color: var(--lightGreen);
+  padding: 2rem 2rem;
+}
+
+.projectDelivery > .projectDContainer > h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0 0 3rem 0;
+}
+
+.projectDelivery > .projectDContainer > .prjTabs {
+  border-bottom: 1px solid var(--mainGreen);
+}
+
+.projectDelivery > .projectDContainer > .prjTabs > .prjTab {
+  cursor: pointer;
+}
+
+.projectDelivery > .projectDContainer > .prjTabs > .prjTab > h3 {
+  padding: 0 0 0.2rem 0;
+  border-bottom: 2px solid var(--lightGreen);
+}
+
+.prjSelect h3 {
+  padding: 0 0 0.4rem 0;
+  border-bottom: 2px solid var(--mainGreen) !important;
+}
