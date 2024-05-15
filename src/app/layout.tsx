@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={myFontRegular.className}>
+      <body className={`${myFontRegular.className}`}>
         <Navbar />
         {children}
         <Footer />

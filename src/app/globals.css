@@ -20,6 +20,52 @@ ul {
   list-style: none;
 }
 
+:root {
+  --black: #050505;
+  --mainBlack: #171717;
+  --mainGreen: #187e3f;
+  --lightGreen: #e4f4f1;
+  --lightBg: #f2f1f6;
+  --lightBg2: #f3f3f3;
+  --lightBg3: #dfe5f3;
+  --lightBg4: #f2efea;
+  --lightBg5: #d6d6d6;
+
+  --mainColor: #fc4c02;
+
+  --grey: #8c8c8c;
+  --bgGrey: #667076;
+
+  /* theme 1 colors */
+  --mainBg: #1e1e1e;
+  --mainBg2: #595959;
+  --mainBg3: #a6a6a6;
+  --mainBg4: #d0d0d0;
+  --mainBg5: #f1efef;
+}
+
+/* background classes */
+.luxuryGold {
+  background: rgb(184, 135, 70);
+  background: linear-gradient(
+    90deg,
+    rgba(184, 135, 70, 1) 0%,
+    rgba(236, 219, 143, 1) 100%,
+    rgba(253, 245, 166, 1) 100%
+  );
+}
+.luxuryRed {
+  background: rgb(125, 20, 29);
+  background: linear-gradient(
+    90deg,
+    rgba(125, 20, 29, 1) 0%,
+    rgba(146, 22, 31, 1) 0%,
+    rgba(158, 23, 32, 1) 0%,
+    rgba(219, 27, 36, 1) 93%,
+    rgba(255, 30, 39, 1) 100%
+  );
+}
+
 /* common classses */
 .flex {
   display: flex;
