@@ -1,6 +1,6 @@
 .contactHeader {
   background-color: var(--mainBg);
-  padding: 2rem;
+  padding: 3rem 2rem;
 }
 
 .contactHeader > h1 {

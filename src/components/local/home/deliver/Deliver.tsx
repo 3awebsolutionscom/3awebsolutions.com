@@ -1,5 +1,10 @@
+import Image from "next/image";
 import CommonBtn from "../../buttons/commonBtn/CommonBtn";
 import "./style.css";
+import needs from "@/assets/images/deliver/needs.svg";
+import strategy from "@/assets/images/deliver/strategy.svg";
+import design from "@/assets/images/deliver/design.svg";
+import collaboration from "@/assets/images/deliver/collaboration.svg";
 
 const Deliver = () => {
   return (
@@ -18,11 +23,15 @@ const Deliver = () => {
             <h3>
               <span>1.</span> Understanding Your Needs
             </h3>
+
             <p>
               Our journey begins by getting to know you and your business. We'll
               delve into your goals, target audience, and brand identity through
               in-depth discussions and workshops.
             </p>
+            <div className="dBoxImg flex alignCenter justifyEnd">
+              <Image src={needs} alt="" />
+            </div>
           </div>
           <div className="deliverBox">
             <h3>
