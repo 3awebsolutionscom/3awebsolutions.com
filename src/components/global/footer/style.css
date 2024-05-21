@@ -1,0 +1,28 @@
+footer > .footer > .fLeft > .fTab > h2 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  color: var(--mainColor);
+  font-weight: 500;
+}
+
+footer > .footer > .fLeft > .fTab > a {
+  margin: 0 0 0.5rem 0;
+  color: var(--mainBg);
+}
+
+footer > .footer > .fRight {
+  background-color: var(--mainBg);
+  height: 20rem;
+}
+
+footer > .footer > .fRight > h1 {
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  color: white;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+footer > .footer > .fRight > p {
+  color: white;
+}

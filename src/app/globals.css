@@ -6,6 +6,18 @@
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: white; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--mainBg); /* color of the scroll thumb */
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,6 +28,7 @@ a {
 
 textarea {
   resize: none;
+  font-family: "Silka", sans-serif;
 }
 
 ul {
@@ -116,11 +129,16 @@ ul {
 .gap2 {
   gap: 2rem;
 }
-
+.gap3 {
+  gap: 3rem;
+}
+.gap4 {
+  gap: 4rem;
+}
 /* -------widths------------------ */
 
 .maxWidth {
-  max-width: 1600px;
+  max-width: 1650px;
 }
 
 .width5 {

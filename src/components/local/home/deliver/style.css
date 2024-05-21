@@ -1,0 +1,64 @@
+.deliver {
+  /* background-color: var(--mainBg5); */
+  padding: 5rem 0 0 0;
+}
+
+.deliver > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.deliver > h2 > span {
+  position: relative;
+}
+
+.deliver > h2 > span:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 7px;
+  width: 100%;
+  border: solid 2px var(--mainColor);
+  border-color: var(--mainColor) transparent transparent transparent;
+  border-radius: 90%;
+}
+
+.deliver > p {
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.deliver > .deliverContainer > .deliverBoxes > .deliverBox {
+  /* background-color: var(--mainBg); */
+  border: 1px solid var(--black);
+  padding: 1rem;
+  width: 33%;
+  height: 13rem;
+}
+
+.deliver > .deliverContainer > .deliverBoxes > .deliverBox > h3 {
+  /* color: white; */
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.deliver > .deliverContainer > .deliverBoxes > .deliverBox > h3 > span {
+  font-family: "Caveat", cursive;
+  font-size: 2.2rem;
+}
+
+.deliver > .deliverContainer > .deliverBoxes > .deliverBox > p {
+  /* color: white; */
+  line-height: 1.5rem;
+}
+
+.deliver > .deliverContainer > .deliverBoxes > .deliverBox:hover {
+  background-color: var(--mainBg);
+  border: 1px solid var(--mainBg);
+  color: white;
+  transition: 0.2s all ease-in-out;
+}

@@ -1,0 +1,77 @@
+.require {
+  background-color: var(--mainBg);
+  padding: 5rem 2rem;
+}
+
+.require > h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 0 2rem 0;
+}
+
+.require > .requireContent {
+  background-color: var(--black);
+  padding: 2rem;
+  color: white;
+}
+
+.require > .requireContent > .requireLeft {
+  /* border-right: 1px solid white; */
+  border: 1px solid var(--mainBg);
+  padding: 1rem;
+}
+
+.require > .requireContent > .requireLeft > .reqLeftTab {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-top: 1px solid var(--black);
+  border-left: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+}
+
+.require > .requireContent > .requireLeft > .reqLeftTab:hover {
+  background-color: var(--mainBg);
+  transition: 0.3s all ease-in-out;
+}
+
+.require > .requireContent > .requireLeft > .reqLeftTab > h3 {
+  font-weight: 500;
+}
+
+.require > .requireContent > .requireLeft > .reqLeftTab > h3 > span {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+}
+
+.activeTab {
+  background-color: var(--mainBg);
+}
+
+.require > .requireContent > .requireRight > p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: justify;
+  animation: requireAnime 2s ease 0s 1 normal forwards;
+}
+
+.require > .requireContent > .requireRight > h4 {
+  font-size: 2.5rem;
+  font-family: "Caveat", cursive;
+  margin: 0 0 1rem 0;
+}
+
+@keyframes requireAnime {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

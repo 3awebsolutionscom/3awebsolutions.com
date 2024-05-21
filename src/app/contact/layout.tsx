@@ -3,5 +3,9 @@ export default function ContactLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <main>{children}</main>;
+  return (
+    <main className="contact flex alignCenter justifyCenter flexColumn width100">
+      {children}
+    </main>
+  );
 }

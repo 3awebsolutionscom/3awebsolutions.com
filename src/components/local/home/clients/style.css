@@ -1,0 +1,19 @@
+.clients {
+  padding: 5rem 10rem;
+}
+
+.clients > .clientTab > .clientBox {
+  width: 20%;
+  padding: 0.5rem;
+}
+
+.clients > .clientTab > .clientBox > img {
+  width: 50%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+.clients > .clientTab > .clientBox > img:hover {
+  filter: grayscale(0%);
+  transition: 0.3s all ease-in-out;
+}

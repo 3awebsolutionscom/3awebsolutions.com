@@ -17,16 +17,14 @@ const Navbar: React.FC<NavbarProps> = () => {
         <div className="menu flex alignCenter justifyCenter gap2">
           <ul className="flex alignCenter justifyCenter gap2">
             <li>
-              <Link href="">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="">Services</Link>
+              <Link href="/services">Services</Link>
             </li>
+
             <li>
-              <Link href="">Packages</Link>
-            </li>
-            <li>
-              <Link href="">About</Link>
+              <Link href="/about">About</Link>
             </li>
           </ul>
           <CommonBtn text="CONTACT" link="contact" />

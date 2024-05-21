@@ -1,0 +1,77 @@
+.contactSection > .cSContainer > .csLeft {
+  background-color: var(--mainBg);
+  padding: 2rem;
+}
+
+.contactSection > .cSContainer > .csLeft > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.contactSection > .cSContainer > .csLeft > h2 > span {
+  position: relative;
+}
+
+.contactSection > .cSContainer > .csLeft > h2 > span:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 7px;
+  width: 100%;
+  border: solid 2px var(--mainColor);
+  border-color: var(--mainColor) transparent transparent transparent;
+  border-radius: 90%;
+}
+
+.contactSection > .cSContainer > .csLeft > form > h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+}
+
+.contactSection > .cSContainer > .csLeft > form > input {
+  background-color: transparent;
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-size: 1rem;
+  caret-color: var(--mainColor);
+  margin: 0 0 1rem 0;
+}
+
+.contactSection > .cSContainer > .csLeft > form > textarea {
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  caret-color: var(--mainColor);
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem 0;
+  margin: 0 0 1rem 0;
+}
+
+.contactSection > .cSContainer > .csLeft > form > button {
+  background-color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 30%;
+  font-family: "Silka", sans-serif;
+}
+
+.contactSection > .cSContainer > .csLeft > form > button:hover {
+  background-color: var(--mainBg4);
+  transition: 0.3s all ease-in-out;
+}

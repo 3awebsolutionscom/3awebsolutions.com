@@ -1,4 +1,48 @@
-.about {
-  background-color: var(--mainBg5);
-  height: 100vh;
+.aboutSection {
+  padding: 5rem 0 0 0;
+}
+
+.aboutSection > .aboutSContainer > .aboutSLeft {
+  padding: 0 0 5rem 0;
+}
+
+.aboutSection > .aboutSContainer > .aboutSLeft > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 0 2rem 0;
+}
+
+.aboutSection > .aboutSContainer > .aboutSLeft > h2 > span {
+  position: relative;
+}
+
+.aboutSection > .aboutSContainer > .aboutSLeft > h2 > span:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 7px;
+  width: 100%;
+  border: solid 2px var(--mainColor);
+  border-color: var(--mainColor) transparent transparent transparent;
+  border-radius: 90%;
+}
+
+.aboutSection > .aboutSContainer > .aboutSLeft > h3 {
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.aboutSection > .aboutSContainer > .aboutSLeft > p {
+  margin: 0 0 1rem 0;
+  line-height: 1.5rem;
+}
+
+.aboutSection > .aboutSContainer > .aboutSLeft > p > span {
+  color: var(--mainColor);
+}
+
+.aboutSection > .aboutSContainer > .aboutSRight > img {
+  width: 100%;
+  height: auto;
 }

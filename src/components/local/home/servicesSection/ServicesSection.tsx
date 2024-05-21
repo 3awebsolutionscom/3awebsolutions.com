@@ -19,12 +19,13 @@ const ServicesSection = () => {
               {/* <RiCodeSSlashFill className="serviceSecIcon" /> */}
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
-              laborum, incidunt nulla officiis id, perspiciatis ducimus
-              repellendus laboriosam ex, soluta praesentium ullam explicabo
-              dolore sint minus hic at mollitia odio quisquam tempora
-              consequuntur amet quae! Odit veniam labore porro explicabo omnis
-              distinctio modi suscipit ex. Vitae non ullam ab quos?
+              Custom web development is the process of creating a website from
+              scratch, specifically designed to meet your unique business needs
+              and goals. Unlike pre-made templates, custom development allows
+              for complete control over every aspect of your website, from its
+              design and functionality to the technology powering it. A custom
+              website allows you to create a unique brand identity that sets you
+              apart from your competitors.
             </p>
             <CommonBtn text="Explore This More" link="services" />
           </div>
@@ -39,12 +40,14 @@ const ServicesSection = () => {
           <div className="sTabSRight width50">
             <h3>WordPress Development</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
-              laborum, incidunt nulla officiis id, perspiciatis ducimus
-              repellendus laboriosam ex, soluta praesentium ullam explicabo
-              dolore sint minus hic at mollitia odio quisquam tempora
-              consequuntur amet quae! Odit veniam labore porro explicabo omnis
-              distinctio modi suscipit ex. Vitae non ullam ab quos?
+              WordPress is a powerful content management system (CMS) used by
+              millions of websites worldwide. While it offers a vast library of
+              themes and plugins, there are times when you need more control and
+              customization to truly stand out. That's where WordPress
+              development comes in. Custom WordPress development allows you to
+              leverage the user-friendly core of WordPress while building
+              functionalities and features that perfectly align with your unique
+              vision.
             </p>
             <CommonBtn text="Explore This More" link="services" />
           </div>
@@ -53,12 +56,11 @@ const ServicesSection = () => {
           <div className="sTabLeft width50 ">
             <h3>Shopify Development</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
-              laborum, incidunt nulla officiis id, perspiciatis ducimus
-              repellendus laboriosam ex, soluta praesentium ullam explicabo
-              dolore sint minus hic at mollitia odio quisquam tempora
-              consequuntur amet quae! Odit veniam labore porro explicabo omnis
-              distinctio modi suscipit ex. Vitae non ullam ab quos?
+              Shopify is a leading e-commerce platform that empowers businesses
+              of all sizes to launch and manage their online stores. While
+              Shopify offers a wealth of themes and apps, for a truly customized
+              and competitive online store, Shopify development takes your
+              e-commerce presence to the next level.
             </p>
             <CommonBtn text="Explore This More" link="services" />
           </div>
