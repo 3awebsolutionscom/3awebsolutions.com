@@ -1,0 +1,67 @@
+.servicesHeader {
+  background-color: var(--lightBg3);
+  padding: 3rem 2rem;
+}
+
+.servicesHeader > h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.servicesHeader > p {
+  margin-bottom: 2rem;
+}
+
+.wpService {
+  padding: 2rem;
+  margin: 1rem 0 0 0;
+}
+
+.wpService > .wpContainer > .wpServiceLeft > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.wpService > .wpContainer > .wpServiceLeft > p {
+  line-height: 1.5rem;
+}
+
+.wpService > .wpContainer > .wpServiceRight > img {
+  width: 100%;
+  height: auto;
+}
+
+.wpService > .wpWhy > h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.wpService > .wpWhy > .wpWhyTabs > .wpWhyTab {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 33%;
+  height: 12rem;
+}
+
+.wpService > .wpWhy > .wpWhyTabs > .wpWhyTab > h4 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 0 0 1rem 0;
+}
+
+.wpService > .wpWhy > .wpWhyTabs > .wpWhyTab > p {
+  line-height: 1.5rem;
+}
+
+.wpService > h2 {
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.wpService > p {
+  text-align: center;
+  margin: 0 0 2rem 0;
+}

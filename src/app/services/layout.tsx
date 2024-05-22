@@ -3,5 +3,9 @@ export default function ServicesLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <main>{children}</main>;
+  return (
+    <main className="services flex alignCenter justifyCenter flexColumn width100">
+      {children}
+    </main>
+  );
 }
