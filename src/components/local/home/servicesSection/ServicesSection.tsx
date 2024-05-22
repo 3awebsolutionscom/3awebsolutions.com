@@ -13,7 +13,7 @@ const ServicesSection = () => {
           <span>Our Services</span>
         </h2>
         <div className="sTabs flex alignStart justifyCenter width100 gap2 marginBottom5">
-          <div className="sTabLeft width50 ">
+          <div className="sTabLeft width60 ">
             <h3>
               Custom Web Development{" "}
               {/* <RiCodeSSlashFill className="serviceSecIcon" /> */}
@@ -29,15 +29,15 @@ const ServicesSection = () => {
             </p>
             <CommonBtn text="Explore This More" link="services" />
           </div>
-          <div className="sTabRight width50">
+          <div className="sTabRight width40">
             <Image src={customDevelopment} alt="custom web development" />
           </div>
         </div>
         <div className="sTabsSwitch flex alignStart justifyCenter width100 gap2 marginBottom5">
-          <div className="sTabSLeft width50">
+          <div className="sTabSLeft width40">
             <Image src={wordpressDevelopment} alt="custom web development" />
           </div>
-          <div className="sTabSRight width50">
+          <div className="sTabSRight width60">
             <h3>WordPress Development</h3>
             <p>
               WordPress is a powerful content management system (CMS) used by
@@ -53,7 +53,7 @@ const ServicesSection = () => {
           </div>
         </div>
         <div className="sTabs flex alignStart justifyCenter width100 gap2">
-          <div className="sTabLeft width50 ">
+          <div className="sTabLeft width60 ">
             <h3>Shopify Development</h3>
             <p>
               Shopify is a leading e-commerce platform that empowers businesses
@@ -64,7 +64,7 @@ const ServicesSection = () => {
             </p>
             <CommonBtn text="Explore This More" link="services" />
           </div>
-          <div className="sTabRight width50">
+          <div className="sTabRight width40">
             <Image src={shopifyDevelopment} alt="custom web development" />
           </div>
         </div>

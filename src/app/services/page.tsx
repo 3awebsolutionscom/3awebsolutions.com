@@ -1,8 +1,11 @@
 import "./style.css";
 import CommonBtn from "@/components/local/buttons/commonBtn/CommonBtn";
 import wpDevelopment from "@/assets/images/wordpressDevelopment.jpg";
+import customDevelopment from "@/assets/images/customDevelopment.jpg";
+import shopifyImage from "@/assets/images/shopifyDevelopment.jpg";
 import Image from "next/image";
 import LightBtn from "@/components/local/buttons/lightBtn/LightBtn";
+import DarkBtn from "@/components/local/buttons/darkBtn/DarkBtn";
 
 const Services = () => {
   return (
@@ -98,6 +101,168 @@ const Services = () => {
           business.
         </p>
         <LightBtn text="Schedule a Free Consultation" link="contact" />
+      </section>
+      <section className="customService width95 maxWidth flex alignCenter justifyCenter flexColumn">
+        <div className="customContainer flex alignCenter justifyCenter gap2">
+          <div className="customLeft width30">
+            <Image src={customDevelopment} alt="" />
+          </div>
+          <div className="customRight width70">
+            <h2>Custom Website Development</h2>
+            <p className="marginBottom1">
+              At 3a Web Solutions, we believe your website should be as unique
+              and powerful as your vision. We're not interested in
+              one-size-fits-all solutions. Instead, we offer a comprehensive
+              range of custom website development services, utilizing
+              cutting-edge technologies like React.js, Next.js, MERN Stack, and
+              more, to create a website that perfectly aligns with your specific
+              needs and goals.
+            </p>
+            <p>
+              Whether you're a startup seeking a dynamic platform for your
+              innovative idea or an established business aiming for a complete
+              digital transformation, we have the expertise to bring your vision
+              to life.
+            </p>
+          </div>
+        </div>
+        <div className="customTech width100">
+          <h2>Custom Development Tech Stack</h2>
+          <div className="customTechTabs flex alignCenter justifyCenter gap1 width100 marginBottom1">
+            <div className="customTechTab">
+              <p>React.js</p>
+            </div>
+            <div className="customTechTab">
+              <p>Next.js</p>
+            </div>
+            <div className="customTechTab">
+              <p>MERN Stack</p>
+            </div>
+            <div className="customTechTab">
+              <p>HTML5 & CSS3</p>
+            </div>
+            <div className="customTechTab">
+              <p>JavaScript</p>
+            </div>
+            <div className="customTechTab">
+              <p>TypeScript</p>
+            </div>
+          </div>
+          <div className="customTechTabs flex alignCenter justifyCenter gap1 width100 marginBottom1">
+            <div className="customTechTab">
+              <p>Node.js</p>
+            </div>
+            <div className="customTechTab">
+              <p>Express.js</p>
+            </div>
+            <div className="customTechTab">
+              <p>Hono</p>
+            </div>
+            <div className="customTechTab">
+              <p>MongoDB</p>
+            </div>
+            <div className="customTechTab">
+              <p>PosgreSQL</p>
+            </div>
+            <div className="customTechTab">
+              <p>Redis</p>
+            </div>
+          </div>
+          <div className="customTechTabs flex alignCenter justifyCenter gap1 width100">
+            <div className="customTechTab">
+              <p>MySQL</p>
+            </div>
+            <div className="customTechTab">
+              <p>AWS</p>
+            </div>
+            <div className="customTechTab">
+              <p>cPanel</p>
+            </div>
+            <div className="customTechTab">
+              <p>Vercel</p>
+            </div>
+            <div className="customTechTab">
+              <p>Render</p>
+            </div>
+            <div className="customTechTab">
+              <p>Netlify</p>
+            </div>
+          </div>
+        </div>
+        <h2>Ready to build a website that sets you apart?</h2>
+        <p>
+          Contact 3a Web Solutions today for a free consultation. Let's discuss
+          your unique requirements and collaboratively craft a custom website
+          that not only reflects your brand but also fuels your online success.
+        </p>
+        <DarkBtn text="Schedule a Free Consultation" link="contact" />
+      </section>
+      <section className="ecomService width95 maxWidth flex alignCenter justifyCenter flexColumn">
+        <div className="ecomSContainer width100 flex alignCenter justifyCenter gap2">
+          <div className="ecomLeft width70">
+            <h2>Shopify Store Development</h2>
+            <p className="marginBottom1">
+              In today's competitive online marketplace, your Shopify store
+              needs to be more than just functional; it needs to be an engaging
+              and seamless shopping experience that converts visitors into loyal
+              customers. At 3a Web Solutions, we specialize in custom Shopify
+              development services designed to unlock the full potential of your
+              online store.
+            </p>
+            <p>
+              Shopify offers a robust platform, but sometimes, a pre-made theme
+              just won't cut it. That's where our custom development expertise
+              comes in.
+            </p>
+          </div>
+          <div className="ecomRight width30">
+            <Image src={shopifyImage} alt="" />
+          </div>
+        </div>
+        <div className="ecomC2 width100">
+          <h3>
+            We work closely with you to understand your unique business needs
+            and develop solutions that:
+          </h3>
+          <div className="ecomTabs flex alignCenter justifyCenter gap1">
+            <div className="ecomTab">
+              <h4>Enhance Functionality</h4>
+              <p>
+                Go beyond the basic features of Shopify. We can develop custom
+                functionalities to streamline your e-commerce operations, such
+                as advanced product filters, personalized product
+                recommendations, or seamless integrations with your existing
+                inventory management system.
+              </p>
+            </div>
+
+            <div className="ecomTab">
+              <h4>Boost Conversion Rates</h4>
+              <p>
+                Our focus is on driving sales. We can optimize your store's
+                checkout process, implement strategic product placement, and
+                integrate conversion-boosting features to maximize your online
+                revenue.
+              </p>
+            </div>
+            <div className="ecomTab">
+              <h4>Seamless Integration with Third-Party Tools</h4>
+              <p>
+                Connect your Shopify store with the tools you already use. We
+                can integrate your store with marketing automation platforms,
+                payment gateways, shipping providers, or any other application
+                that enhances your e-commerce operations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2>Ready to take your Shopify store to the next level?</h2>
+        <p>
+          Let's discuss your vision and collaborate to create a custom Shopify
+          store that not only looks stunning but also drives significant sales
+          for your business.
+        </p>
+        <LightBtn text="Schedule a Free Consultation" link="Contact" />
       </section>
     </>
   );
