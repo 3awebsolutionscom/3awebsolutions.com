@@ -3,15 +3,24 @@
   padding: 3rem 2rem;
 }
 
-.contactHeader > h1 {
+.contactHeader > .cHeaderLeft > h1 {
   font-size: 2.5rem;
   font-weight: 500;
   margin: 0 0 1rem 0;
   color: white;
 }
 
-.contactHeader > p {
+.contactHeader > .cHeaderLeft > p {
   color: white;
+}
+
+.contactHeader > .cHeaderRight > a {
+  color: white;
+}
+
+.contactHeader > .cHeaderRight > a > span {
+  font-family: "Caveat", cursive;
+  font-size: 1.6rem;
 }
 
 .contactContainer {

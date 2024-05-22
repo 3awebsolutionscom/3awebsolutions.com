@@ -1,12 +1,23 @@
 import Clients from "@/components/local/home/clients/Clients";
 import "./style.css";
+import Link from "next/link";
 
 const Contact = () => {
   return (
     <>
-      <section className="contactHeader width95 maxWidth">
-        <h1>Contact</h1>
-        <p>Ready to Collaborate? Get in Touch Today.</p>
+      <section className="contactHeader width95 maxWidth flex alignEnd spaceBtw">
+        <div className="cHeaderLeft">
+          <h1>Contact</h1>
+          <p>Ready to Collaborate? Get in Touch Today.</p>
+        </div>
+        <div className="cHeaderRight flex alignCenter justifyCenter gap2">
+          <Link href="">
+            info<span>@</span>3awebsolutions.com
+          </Link>
+          <Link href="">
+            contact<span>@</span>3awebsolutions.com
+          </Link>
+        </div>
       </section>
       <div className="contactContainer width95 maxWidth flex alignStart justifyCenter">
         <div className="contactLeft width50">
